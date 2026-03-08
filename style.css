@@ -99,9 +99,16 @@ h1::after{
   width: 50vw;
 }
 
+.main button
+{
+
+  box-shadow: 0px 0px 15px hsla(0, 0%, 0%, 0.9);
+}
+
 button
 {
-  background-color: var(--accent);
+  margin-top: -10px;
+  background-color: var(--xx-dark);
   width: 25vw;
   height: 5vh;
   border-radius: 5px;
@@ -180,6 +187,8 @@ footer
 {
   transform: translateY(70px);
 }
+
+
 
 code 
 {

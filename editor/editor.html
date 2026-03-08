@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor - easyLib.js</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top">
+    <button onclick="window.location.href = '../index.html'"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="var(--lll-dark)"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></button>
+    <button onclick="run()">Run</button>
+  </div>
+  <div class="main">
+    <div class="input">
+      <div class="btns">
+        <button onclick="zoom('in')">+</button>
+        <button onclick="zoom('out')">-</button>
+      </div>
+      <textarea id="input" spellcheck="false" autocorrect="off" autocomplete="off" autocapitalize="off"></textarea>
+    </div>
+    <div class="output"></div>
+  </div>
+  <script src="easyLibEditor.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
